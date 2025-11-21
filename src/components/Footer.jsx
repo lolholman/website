@@ -1,0 +1,14 @@
+import React from 'react';
+
+const Footer = () => {
+    return (
+        <footer style={{ padding: '2rem 0', borderTop: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', color: '#666', fontSize: '0.9rem' }}>
+            <div className="container">
+                <p>&copy; {new Date().getFullYear()} Lauren Holman. All rights reserved.</p>
+                <p style={{ marginTop: '0.5rem' }}>Built with React & Vite.</p>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;
