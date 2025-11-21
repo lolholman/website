@@ -1,0 +1,1 @@
+Canonical: https://github.com/lolholman/site/security.txt
